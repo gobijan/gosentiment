@@ -12,6 +12,13 @@ With a [correctly configured](https://golang.org/doc/install#testing) Go toolcha
 go get -u github.com/gobijan/gosentiment
 ```
 
+## Build the executable
+
+```sh
+cd $GOPATH/src/github.com/gobijan/gosentiment
+go build gosentiment
+```
+
 ## Usage
 
 You can list the command line options as follows:
